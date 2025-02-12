@@ -1,1 +1,1 @@
-Project: ALU Shell Permissions
+This is the ALU Shell Permissions repository.
