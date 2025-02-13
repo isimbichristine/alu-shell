@@ -1,7 +1,2 @@
 #!/bin/bash
-if [ "$(stat -c %U hello)" = "guillaume" ]; then
-sudo chown vincent hello
- echo "Ownership changed to vincent."
-else
-  echo "The file is not owned by guillaume. No changes made."
-fi
+[ "$(stat -c '%U' hello)" == "guillaume" ] && chown vincent:hello hello
