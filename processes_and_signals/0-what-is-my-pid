@@ -1,5 +1,1 @@
-cat > 0-what-is-my-pid << 'EOF'
-#!/usr/bin/env bash
-# Displays the Process ID (PID) of the current script
-echo $$
-EOF
+
